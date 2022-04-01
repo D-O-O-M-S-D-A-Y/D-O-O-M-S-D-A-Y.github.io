@@ -1,0 +1,175 @@
+/*The background image*/
+html {
+  background: url(Money2.png) no-repeat center fixed;
+  background-size: cover;
+  
+}
+/* Creates the green background behind the logo*/
+.company-div{
+	background-color: #006006;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/* Formats the company logo image*/
+.company-logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/*Creates the black background of the navigation bar*/
+.nav-div{
+	background-color: #000000;
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	overflow: hidden;
+}
+/*Manages the navigation bar's unlisted list*/
+.nav-bar{
+	list-style-type: none;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+/*Manages the individual elements of the navigation bar*/
+.nav-element{
+	float: left;
+	text-align: center;
+	font-size: 50px;
+	border-right: 1px solid #bbb;
+	background-color: #000000;
+	color: white;
+	
+}
+/*Removes the white border of the last element of the navigation bar*/
+.nav-element:last-child {
+	border-right: none;
+	}
+/*Changes the color of the navigation element when the cursor hovers over it*/	
+.nav-element a:hover {
+	background-color: #00C60E;
+	/*border-bottom: 3px solid white;*/
+}
+/*Changes the color of element of the current page*/
+.nav-element-active{
+	background-color: #008F06;
+}
+/*Moves a nav bar element to the right side of the page and change the side the white border is on*/
+.nav-element-right{
+	float: right;
+	border-right: none;
+	border-left: 1px solid #bbb;
+}
+/*Manages the text of a nav bar link*/
+.nav-link{
+	display: block;
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+	
+}
+/*Manages the white background behind the other */
+.content-div{
+	background-color: white;
+	width: 1300px;
+	overflow: hidden;
+	margin: auto;
+}
+/*Creates the secondary green background*/
+.section-div{
+	background-color: #006006;
+	margin: 100px;
+	padding: 0;
+	overflow: hidden;
+}
+/*Creates the back box around the title*/
+.content-title-div{
+	background-color: black;
+	margin: 100px;
+	padding: 10px;
+	overflow: hidden;
+}
+/*Manages the main title of the content of the page*/
+.content-title{
+	top: 0;
+	width: 900px;
+	text-align: center;	
+	font-size: 50px;
+	color: white;
+	margin: auto;
+}
+/*Manages the title description*/
+.content-description{
+	top: 0;
+	width: 900px;
+	text-align: center;	
+	font-size: 30px;
+	color: white;
+	margin: auto
+}
+/*Creates the lime green box around a package*/
+.package-div{
+	background-color: #008F06 ; /*#008F06*//*#006006 */
+	margin: 100px;
+	padding: 5px;
+	overflow: hidden;
+	color: white;
+}
+/*Manages the margins around the package title*/
+.package-title-div{
+	/*background-color: black;*/
+	margin: 10px;
+	padding: 15px;
+	overflow: hidden;
+	color: white;
+}
+/*Manages the text of a package title*/
+.package-item-title{
+	top: 0;
+	width: 900px;
+	text-align: left;	
+	font-size: 40px;
+	margin: auto;
+	font-weight: bold;
+	color: white;
+}
+/*Manages the description of a package*/
+.package-item-description{
+	width: 900px;
+	text-align: left;
+	font-size: 30px;
+	margin: auto;
+}
+/*The contact us link in the footer of the page*/
+.contact-us{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+/*The background of the footer*/
+.footer{
+	overflow: hidden;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 0;
+}
+/*Manages the text of the footer*/
+.footer-block{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #3F3F3F;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+}
