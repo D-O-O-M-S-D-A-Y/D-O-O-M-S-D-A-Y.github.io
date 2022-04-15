@@ -34,8 +34,6 @@ html {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	
-	
 }
 /*Manages the individual elements of the navigation bar*/
 .nav-element{
@@ -45,7 +43,6 @@ html {
 	border-right: 1px solid #bbb;
 	background-color: #800101;
 	color: white;
-	
 }
 /*Removes the white border of the last element of the navigation bar*/
 .nav-element:last-child {
@@ -54,7 +51,6 @@ html {
 /*Changes the color of the navigation element when the cursor hovers over it*/	
 .nav-element a:hover {
 	background-color: #c60000;
-	/*border-bottom: 3px solid white;*/
 }
 /*Changes the color of element of the current page*/
 .nav-element-active{
@@ -74,7 +70,7 @@ html {
 	text-decoration: none;
 	
 }
-/*Manages the white background behind the other */
+/*Manages the white background behind the others */
 .content-div{
 	background-color: white;
 	width: 1300px;
@@ -83,7 +79,7 @@ html {
 }
 /*Creates the secondary green background*/
 .section-div{
-	background-color: #000000;
+	background-color: black;
 	margin: 100px;
 	padding: 0;
 	overflow: hidden;
@@ -104,11 +100,27 @@ html {
 	color: white;
 	margin: auto;
 }
+/*Manages the main contents, paragraphs*/
+.content-paragraph{
+	width: 900px;
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+}
+/*Manages the title description*/
+.content-description{
+	top: 0;
+	width: 900px;
+	text-align: center;	
+	font-size: 30px;
+	color: white;
+	margin: auto
+}
 /*Creates the lime green box around a package*/
 .package-div{
 	background-color: #2b2b2b ; /*#008F06*//*#006006 */
 	margin: 100px;
-	padding: 15px;
+	padding: 5px;
 	overflow: hidden;
 	color: white;
 }
@@ -136,6 +148,29 @@ html {
 	text-align: left;
 	font-size: 30px;
 	margin: auto;
+}
+.profits-table{
+	background-color: white;
+    border: 2px solid black;
+	color: black;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+table, td, th{
+	border: 2px solid black;
+	border-bottom: 2px solid black;
+	color: black;
+	border-collapse: collapse;
+}
+.profits-table:td{
+	border: 2px solid black;
+	border-bottom: 2px solid black;
+	color: black;
+}
+.profits-table:th{
+	border: 2px solid black;
+	color: black;
 }
 /*The contact us link in the footer of the page*/
 .contact-us{
