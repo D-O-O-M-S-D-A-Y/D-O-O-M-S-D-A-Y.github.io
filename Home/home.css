@@ -1,8 +1,7 @@
 
-<style>
 /*The background image*/
 html {
-  background: url(Money2.png) no-repeat center fixed;
+  background: url(../Money2.png) no-repeat center fixed;
   background-size: cover;
 }
 /* Creates the green background behind the logo*/
@@ -124,4 +123,3 @@ html {
 	padding: 0;
 	overflow: hidden;
 }
-</style>

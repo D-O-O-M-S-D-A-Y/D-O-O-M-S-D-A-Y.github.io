@@ -1,6 +1,6 @@
 /*The background image*/
 html {
-  background: url(Money2.png) no-repeat center fixed;
+  background: url(../Money2.png) no-repeat center fixed;
   background-size: cover;
   
 }
