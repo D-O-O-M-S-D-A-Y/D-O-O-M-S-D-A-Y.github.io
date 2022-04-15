@@ -116,7 +116,7 @@ html {
 }
 /*Creates the lime green box around a package*/
 .package-div{
-	background-color: #000000 ; /*#008F06*//*#006006 */
+	background-color: #2b2b2b ; /*#008F06*//*#006006 */
 	margin: 100px;
 	padding: 5px;
 	overflow: hidden;
