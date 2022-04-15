@@ -6,7 +6,7 @@ html {
 }
 /* Creates the green background behind the logo*/
 .company-div{
-	background-color: #006006;
+	background-color: #000000;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -42,7 +42,7 @@ html {
 	text-align: center;
 	font-size: 50px;
 	border-right: 1px solid #bbb;
-	background-color: #000000;
+	background-color: #800101;
 	color: white;	
 }
 /*Removes the white border of the last element of the navigation bar*/
@@ -51,11 +51,11 @@ html {
 	}
 /*Changes the color of the navigation element when the cursor hovers over it*/	
 .nav-element a:hover {
-	background-color: #00C60E;
+	background-color: #c60000;
 }
 /*Changes the color of element of the current page*/
 .nav-element-active{
-	background-color: #008F06;
+	background-color: #8f0000;
 }
 /*Moves a nav bar element to the right side of the page and change the side the white border is on*/
 .nav-element-right{
@@ -80,14 +80,14 @@ html {
 }
 /*Creates the secondary green background*/
 .section-div{
-	background-color: #006006;
+	background-color: #000000;
 	margin: 100px;
 	padding: 0;
 	overflow: hidden;
 }
 /*Creates the back box around the title*/
 .content-title-div{
-	background-color: black;
+	background-color: rgb(121, 5, 5);
 	margin: 100px;
 	padding: 10px;
 	overflow: hidden;
@@ -112,7 +112,7 @@ html {
 }
 /*Creates the lime green box around a package*/
 .package-div{
-	background-color: #008F06 ; /*#008F06*//*#006006 */
+	background-color: #000000 ; /*#008F06*//*#006006 */
 	margin: 100px;
 	padding: 5px;
 	overflow: hidden;
