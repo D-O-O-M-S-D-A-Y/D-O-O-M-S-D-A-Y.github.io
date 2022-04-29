@@ -10,14 +10,17 @@
 	
 	<script type="text/javascript">
 		function sendEmail() {
+		email = document.getElementById("tswemail").value
+		name = document.getElementById("tswname").value
+		comments = document.getElementById("tswcomments").value
 		Email.send({
 			Host: "smtp.gmail.com",
 			Username: "doomsday.inc57@gmail.com",
 			Password: "EvilHAHA68",
 			To: 'legitbusiness57@gmail.com',
-			From: "sender@email_address.com",
-			Subject: "Sending Email using javascript",
-			Body: "Well that was easy!!",
+			From: email,
+			Subject: name + " sent feedback!",
+			Body: comments,
 		})
 			.then(function (message) {
 			alert("mail sent successfully")
@@ -115,14 +118,14 @@
 				</div>
 				<div class = "package-item-description">
 					<!--The customer feedback form provided by https://www.thesitewizard.com/wizards/feedbackform.shtml-->
-					<form method="post" id="tswfbform" accept-charset="UTF-8">
+					<div id="tswfbform" accept-charset="UTF-8">
 						<label for="tswname">Name</label> <input type="text" name="fullname" style="max-width: 100%;" id="tswname" size="39"><br>&nbsp;<br>
 						<label for="tswemail">Email</label> <input type="text" style="max-width: 100%;" id="tswemail" name="email" size="39"><br>&nbsp;<br>
 						<label for="tswcomments">Comments</label><br>&nbsp;<br>
 						<textarea rows="15" cols="45" name="comments" style="max-width: 100%;" id="tswcomments"></textarea>
 						<br>&nbsp;<br>
 						<input id="tswsubmit" type="submit" value="Send Feedback" onclick="sendEmail()">
-					</form>
+					</div>
 				</div><br>
 			</div>
 		</div>
