@@ -144,7 +144,7 @@ html {
 }
 /*Manages the description of a package*/
 .package-item-description{
-	width: 900px;
+	width: 100%;
 	text-align: left;
 	font-size: 30px;
 	margin: auto;
