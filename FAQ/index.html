@@ -4,6 +4,26 @@
 	<meta charset="utf-8"/>
 	<title> LBC FAQ </title>
 	<link rel="stylesheet" type="text/css" href="../main.css">	
+	<script src=
+    "https://smtpjs.com/v3/smtp.js">
+	</script>
+	
+	<script type="text/javascript">
+		function sendEmail() {
+		Email.send({
+			Host: "smtp.gmail.com",
+			Username: "doomsday.inc57@gmail.com",
+			Password: "EvilHAHA68",
+			To: 'legitbusiness57@gmail.com',
+			From: "sender@email_address.com",
+			Subject: "Sending Email using javascript",
+			Body: "Well that was easy!!",
+		})
+			.then(function (message) {
+			alert("mail sent successfully")
+			});
+		}
+	</script>
 </head>
 <body>
 	<div class = "company-div">
@@ -95,13 +115,13 @@
 				</div>
 				<div class = "package-item-description">
 					<!--The customer feedback form provided by https://www.thesitewizard.com/wizards/feedbackform.shtml-->
-					<form action="feedback.php" method="post" id="tswfbform" accept-charset="UTF-8">
+					<form method="post" id="tswfbform" accept-charset="UTF-8">
 						<label for="tswname">Name</label> <input type="text" name="fullname" style="max-width: 100%;" id="tswname" size="39"><br>&nbsp;<br>
 						<label for="tswemail">Email</label> <input type="text" style="max-width: 100%;" id="tswemail" name="email" size="39"><br>&nbsp;<br>
 						<label for="tswcomments">Comments</label><br>&nbsp;<br>
 						<textarea rows="15" cols="45" name="comments" style="max-width: 100%;" id="tswcomments"></textarea>
 						<br>&nbsp;<br>
-						<input id="tswsubmit" type="submit" value="Send Feedback">
+						<input id="tswsubmit" type="submit" value="Send Feedback" onclick="sendEmail()">
 					</form>
 				</div><br>
 			</div>
