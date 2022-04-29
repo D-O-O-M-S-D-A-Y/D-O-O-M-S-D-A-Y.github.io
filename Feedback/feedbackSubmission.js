@@ -25,8 +25,7 @@ else submitReview and thankUser.
 
 */
 function checkReview(x) {
-	if checkCompletion(x) {
-		continue;
+	if (checkCompletion(x)) {
 	} else {
 		submissionFailedIncomplete();
 	}
@@ -75,7 +74,7 @@ Thanks the user if the review has been submited succesfully.
 
 */
 function thankUser() {
-	document.getElementById("thankYou").
+	document.getElementById("thankYou")
 }
 /**
 An unused general submission failed message
